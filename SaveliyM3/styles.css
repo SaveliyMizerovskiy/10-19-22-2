@@ -1,0 +1,31 @@
+@media screen and (max-width:599px) {
+    #bar{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: gainsboro;
+        
+        
+    }
+    p{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    
+}
+
+@media screen and (min-width:600px){
+    #bar{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: black;
+        color: gainsboro;
+        
+        
+    }
+    p{
+        margin-right: 50px;
+    }
+}
+
+
